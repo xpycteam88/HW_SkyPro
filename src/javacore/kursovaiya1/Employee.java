@@ -1,4 +1,4 @@
-package kursovaiya1;
+package javacore.kursovaiya1;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package kursovaiya1;
+package javacore.kursovaiya1;
 // вынес статическую переменную, т.к. она не относится к свойства объекта класса Emloyee
 final class AvtoCounter {
 

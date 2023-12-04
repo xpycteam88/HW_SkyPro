@@ -1,6 +1,4 @@
-package kursovaiya1;
-
-import java.util.Arrays;
+package javacore.kursovaiya1;
 
 public class EmployeesList {
     private final Employee[] employees;
