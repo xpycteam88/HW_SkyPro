@@ -10,7 +10,10 @@ public abstract class Vehicle {
     }
 
     public void updateTyre() {
-        System.out.println("Меняем покрышку");
+        System.out.println("Обслуживаем " + getModelName());
+        for (int i = 0; i < getWheelsCount(); i++) {
+            System.out.println("Меняем покрышку");
+        }
     }
 
     public String getModelName() {
