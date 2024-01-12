@@ -38,6 +38,8 @@ public class Listservice {
                 uniqString.put(string, uniqString.get(string) + 1);
             }
         }
-        System.out.println(uniqString.values());
+        for (Map.Entry<String, Integer> entry : uniqString.entrySet()) {
+            System.out.println(entry.getValue());
+        }
     }
 }
