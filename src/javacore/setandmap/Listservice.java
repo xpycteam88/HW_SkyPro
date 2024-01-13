@@ -14,6 +14,7 @@ public class Listservice {
     }
 
     public static void task2(List<Integer> number) {
+        Collections.sort(number);
         Integer uniqueNum = Integer.MIN_VALUE;
         for (int num : number) {
             if (num % 2 == 0 && uniqueNum != num) {
